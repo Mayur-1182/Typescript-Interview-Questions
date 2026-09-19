@@ -533,7 +533,7 @@ type State =
 ```
 
 ### Interview-ready answer
-A simple union of string literals only tells me which values are allowed. A discriminated union associates each status value with a specific object shape and lets TypeScript narrow to that shape.
+A discriminated union is a union of object types that share a common property with literal values. That property is called the discriminator.
 
 ### React example
 
